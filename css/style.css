@@ -1,0 +1,444 @@
+body {
+    overflow-x: hidden;
+}
+
+/* SONY BAR */
+.logo_sony {
+    max-width: 75px;
+}
+
+/* NAV BAR */
+.col_nav {
+    padding: 0 !important;
+
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar a:hover {
+    color: #0070D1 !important;
+}
+
+.navbar .dropdown-toggle::hover {
+    color: #0070D1 !important;
+}
+
+.navbar .dropdown-toggle::after {
+    position: relative;
+    top: 3px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    font-size: 0.7rem;
+    color: #999999;
+    content: "\f078";
+    border: 0;
+}
+
+.navbar a.show::after {
+    content: "\f077";
+}
+
+.navbar .dropdown {
+    position: static;
+}
+
+.navbar .dropdown-menu {
+    padding: 15px 0;
+    border: 0;
+    top: 74px;
+    width: 100%;
+}
+
+.navbar .dropdown-menu li {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #0070D1;
+
+}
+
+.navbar .dropdown-menu a img {
+    display: block;
+    width: 70px;
+}
+
+.navbar .dropdown-menu .ps6 a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .dropdown-menu .dropdown-divider {
+    display: block;
+    border-top: 1px solid #b9b9b9;
+}
+
+.navbar .dropdown-menu .sub-link {
+    font-size: 1rem;
+    position: relative;
+}
+
+.navbar .dropdown-menu .sub-link::before {
+    content: '\f111';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    font-size: 0.3rem;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.navbar .dropdown-menu .sub-link a:hover {
+    background-color: transparent;
+}
+
+.navbar a.accedi {
+    display: block;
+    background-color: #3E3E3E;
+    border-radius: 50px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #363636;
+    width: fit-content;
+}
+
+.navbar a.accedi:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.navbar .fa-search {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar .search {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+/* JUMBO */
+.row_jumbo {
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.col_returnal {
+    min-height: 580px;
+}
+
+.logo_giochi {
+    max-width: 205px;
+}
+
+/* WIDGET CARD */
+#jumbo .card_wrapper {
+
+    color: white;
+
+}
+
+.card_wrapper {
+    width: 100%;
+
+    margin: 0 10px;
+}
+
+.card_title {
+    font-weight: normal;
+}
+
+.card_description {
+    font-size: 12px;
+}
+
+.card_btn {
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    background-color: #CD3D0F;
+    border: 1px solid transparent;
+}
+
+.card_btn:hover {
+    background-color: #0070D1;
+    color: white;
+}
+
+/* JUMBO THUMB */
+#thumb_jumbo {
+   
+}
+
+#thumb_jumbo a .active {
+    border: 3px solid #0070D1;
+    box-shadow: inset 0 0 0 2px #FFF;
+
+}
+
+#thumb_jumbo a img {
+    padding: 2px;
+    border-radius: 20px;
+    transition: margin-top 0.5s;
+    margin-top: 0;
+    max-width: 165px;
+
+}
+
+#thumb_jumbo a:hover img {
+    margin-top: -15px;
+
+}
+
+/* PS5 */
+#ps4 .card_wrapper_titolo {
+    color: black;
+
+}
+
+.blue_ {
+    background-color: #0070D1 !important;
+}
+
+.blue_:hover {
+    background-color: #CD3D0F !important;
+}
+
+.up_title {
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0070D1;
+    margin-bottom: 0;
+}
+
+/* PS5 THUMB */
+.active {
+    border-bottom: 3px solid #0070D1;
+    box-shadow: inset 0 0 0 2px #FFF;
+
+}
+
+#thumb_PS5 img {
+    max-width: 115px;
+
+
+}
+
+#thumb_PS5 img:hover {
+    border-bottom: 3px solid #0070D1;
+}
+
+/* IT TAKES TWO */
+.row_jumbo {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+.col_ITT {
+    min-height: 580px;
+}
+
+/* IT TAKES TWO THUMB */
+#nuove_uscite {
+    background-color: #1F1F1F;
+}
+
+
+#nuove_uscite img {
+    max-width: 150px;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+
+
+
+}
+
+#nuove_uscite a:hover img {
+    filter: blur(0.1px);
+    transform: scale(1.01);
+}
+
+#nuove_uscite .titolo {
+
+    margin-left: 35px;
+
+}
+
+#nuove_uscite .subtitle {
+
+    margin-left: 35px;
+
+    font-size: 20px;
+
+}
+
+#nuove_uscite .titolo_giochi {
+    font-size: 12px;
+}
+
+/* PS4 */
+#PS4 .card_description {
+    text-align: center;
+}
+
+#PS4 .f_l {
+    text-align: center;
+    margin: 0;
+}
+
+#ps4 .img_device {
+    max-height: 170px;
+    padding: 0;
+}
+
+/* PSPLUS */
+#ps_plus .container-fluid {
+    background-color: #BEBCBB;
+
+}
+
+#ps_plus .card_wrapper {}
+
+#ps_plus .logo_plus {
+    max-width: 220px;
+    margin-bottom: 30px;
+}
+
+#ps_plus .card_btn {
+    background-color: #D9DADC;
+    color: #0070D1;
+}
+
+#ps_plus .card_btn:hover {
+    background-color: #0070D1;
+    color: #D9DADC;
+
+}
+
+.col_bg {
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* SCONTI */
+
+
+#sconti img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+
+
+
+}
+
+#sconti a:hover img {
+    filter: blur(0.1px);
+    transform: scale(1.01);
+}
+
+/* PS NOW */
+#ps_now .container-fluid {
+    background-color: #161C3B;
+
+}
+
+#ps_now .logo_plus {
+    max-width: 220px;
+    margin-bottom: 30px;
+}
+
+#ps_now .card_btn {
+    background-color: #D9DADC;
+    color: black;
+}
+
+#ps_now .card_btn:hover {
+    background-color: #0070D1;
+    color: #D9DADC;
+
+}
+
+#ps_now .col_bg {
+    background-image: url('../img/ps-now-april-featured-image-block.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* SOCIAL */
+#social img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    width: 200px !important;
+
+
+}
+
+#social a:hover img {
+    filter: blur(0.1px);
+    transform: scale(1.01);
+}
+
+/* FOOTER */
+footer {
+    background-color: #00439C;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 15px 0;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFF;
+}
+
+footer .lingua {
+    margin-top: 40px;
+    width: fit-content;
+
+}
+
+footer .lingua img {
+    width: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+footer .logo_sony_footer {
+    max-width: 90px;
+    margin-bottom: 10px;
+}
